@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    background-color: #f9f7f3;
+    font-family: "Inconsolata", sans-serif;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(113, 83, 9);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+header > ul {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: space-around;
+}
+
+header > ul > li {
+    width: 100%;
+    text-align: center;
+}
+
+header > ul > li > a {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+    padding: 8px 0;
+}
+
+
+header > ul > li > a:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+
+#theCafe {
+    width: 100%;
+    height: 75vh;
+    background-image: url(/Images/pitstop.png); 
+    
+    background-position: center;
+    filter: grayscale(50%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#theCafe  h1 {
+    text-align: center;
+    font-size: 90px;
+    color: whitesmoke;
+}
+
+#theCafe > span {
+    position: absolute;
+}
+
+#theCafe > span:first-of-type {
+    left: 25px;
+    bottom: 15px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+#theCafe > span:last-of-type {
+    right: 25px;
+    bottom: 15px;
+    color:rgb(116, 54, 7);
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title-container h2 {
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 5px 10px;
+    margin-top: 60px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.content-box {
+    display: block;
+    background-color: #000;
+}
+
+.content-box p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.content-box1 {
+    background-color: #f1f1f1;
+    border-left: 6px solid #ccc;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-style: italic;
+    padding: 10px;
+}
+
+.coffeeshop {
+    width: 100%;
+    filter: grayscale(60%);
+    margin-top: 16px;
+    vertical-align: middle;
+} 
+
+.p1 {
+    font-size: 18px;
+}
+
+#table {
+    border: 1px solid black;
+    margin: 10px;
+}
+.table-header {
+    display: flex;
+    justify-content: space-around;
+}
+.table-header span {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.table-header span:first-of-type {
+    background-color: rgb(137, 83, 8);
+}
+
+.table-body h5 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px;
+    line-height: 1.5;
+}
+
+.table-body p {
+    font-size: 18px;
+    color: #757575;
+    margin: 10px;
+    line-height: 1.5;
+}
+
+.place {
+    font-size: 18px;
+}
+
+.FYI {
+    background-color: #000;
+    color: #ff0202;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+#home {
+    width: 46px;
+    height: 44px;
+    background: url(img_navsprites.gif) 0 0;
+}
+  
+  #next {
+    width: 43px;
+    height: 44px;
+    background: url(img_navsprites.gif) -91px 0;
+}
+
+form {
+    display: block;
+    line-height: 1.5;
+}
+
+form input {
+    display: block;
+    padding: 16px 8px 16px 8px;
+    border: 1px solid #ccc;
+    width: 97%;
+    font-size: 18px;
+    font-family: "Inconsolata", sans-serif;
+}
+
+form button {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 18px;
+}
+
+form button:hover {
+    color: black;
+    background-color: gray;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 18px;
+}
+footer a {
+    color: black;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: lightgreen;
+}

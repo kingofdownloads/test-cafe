@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<style>
+#navlist {
+  position: relative;
+}
+
+#navlist li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlist li, #navlist a {
+  height: 44px;
+  display: block;
+}
+
+#home {
+  left: 0px;
+  width: 46px;
+  background: url('img_navsprites.gif') 0 0;
+}
+
+#prev {
+  left: 63px;
+  width: 43px;
+  background: url('img_navsprites.gif') -47px 0;
+}
+
+#next {
+  left: 129px;
+  width: 43px;
+  background: url('img_navsprites.gif') -91px 0;
+}
+</style>
+</head>
+<body>
+
+<ul id="navlist">
+  <li id="home"><a href="default.asp"></a></li>
+  <li id="prev"><a href="css_intro.asp"></a></li>
+  <li id="next"><a href="css_syntax.asp"></a></li>
+</ul>
+<body>
+    <header>
+        <ul>
+            <li><a href="id="home" src="img_trans.gif" width="1" height="1"></</lia>">home</a><img>
+            <li><a href="">about</a></li>
+            <li><a href="">menu</a></li>
+            <li><a href="">where</a></li>
+        </ul>
+    </header>
+
+    <section id="theCafe">
+        <div>
+            <h1>
+                 Pit <br> Stop  <br> cafe   
+            </h1>
+        </div>
+
+        <span>Open from 6am to 5pm</span>
+        <span>15 Gibson Street, 0161</span>
+    </section>
+
+    <main>
+        <section>
+            <div class="title-container">
+                <h2>ABOUT THE CAFE</h2>
+            </div>
+                    <div class="content-box">
+                <p>The Cafe was founded in England by Mr. 
+                   Gibson in A Code Nation classroom, Built up from scratch.</p>
+
+                <p>In addition to our full espresso and brew bar menu, 
+                   we serve fresh made-to-order breakfast and lunch sandwiches, 
+                   as well as a selection of sides and salads and other good stuff.</p>
+                   </div>
+
+                   <div class="content-box1">
+                       <p>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</p>
+                       <p>Chef, Coffeepots and Owner: Wayne Gibson</p>
+                   </div>
+
+                   <img src="./Images/coffee_bar.jpeg" alt="Coffee Shop" class="coffeeshop">
+
+                   <p class="p1"><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+                   <p class="p1"><strong>Address:</strong> 15 Gibson Street, 0161, my world</p>
+        </section>
+
+        <section>
+            <div class="title-container">
+                <h2>THE MENU</h2>
+            </div>
+
+            <section id="table">
+                <div class="table-header">
+                    <span>Eat</span>
+                    <span>Drink</span>
+                </div>
+
+                <div class="table-body">
+                        <h5>Bread Basket</h5>
+                        <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+                        <br>
+                        <h5>Honey Almond Granola with Fruits</h5>
+                        <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                        <br>
+                        <h5>Belgian Waffle</h5>
+                        <p>Vanilla flavored batter with malted flour 7.50</p>
+                        <br>
+                        <h5>Scrambled eggs</h5>
+                        <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                        <br>
+                        <h5>Blueberry Pancakes</h5>
+                        <p>With syrup, butter and lots of berries 8.50</p>
+                </div>
+            </section>
+
+            <img src="./Images/iced_coffee.jpeg" alt="Cup Coffee" class="coffeeshop">
+        </section>
+
+        <section>
+            <div class="title-container">
+                <h2>WHERE TO FIND US</h2>
+            </div>
+
+            <div class="place">
+            <p>Find us at some address at some place.</p>
+            <img src="./Images/matcha_beetroot.jpeg" alt="Place" class="coffeeshop">
+
+            <p>
+                <span class="FYI">FYI!</span>
+                We offer full-service catering for any event, 
+                large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, 
+                both look and taste.
+            </p>
+            <p>
+            <strong>Reserve</strong> a table, ask for today's special or just send us a message:
+            </p>
+           </div>
+
+           <form action="">
+               <p>
+                   <input type="text" placeholder="Name">
+               </p>
+               <p>
+                   <input type="number" placeholder="How many people">
+               </p>
+               <p>
+                   <input type="datetime-local" value="2017-11-16T20:00" placeholder="Date and time">
+               </p>
+               <p>
+                   <input type="text" placeholder="Message \ Special requirements">
+               </p>
+               <p>
+                   <button type="submit">
+                       SEND MESSAGE
+                   </button>
+               </p>
+           </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Powered by 
+            <a 
+                href="https://www.w3schools.com/w3css/default.asp"
+                target="_blank"
+            >
+                w3.css
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
