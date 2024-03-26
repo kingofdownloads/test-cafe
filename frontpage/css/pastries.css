@@ -1,0 +1,28 @@
+.grid-container {
+    display:block;
+    column-gap: 100px;
+    grid-template-columns: auto auto auto;
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  .grid-item {
+    background-color: rgba(7, 6, 6, 0.8);
+    border: 10px solid rgb(249, 6, 6);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: inherit, 'Tangerine', serif;
+    font-weight: 100;
+    color: antiquewhite;
+  }
+
+  BODY{
+    color: antiquewhite;
+    font-family: inherit, 'Tangerine', serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #f00b0b;
+    background-color: black;
+    line-height: 1.4;
+    padding: 3em 2em;
+  }

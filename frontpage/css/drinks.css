@@ -1,10 +1,12 @@
 
 body {
-    background: #fff;
-    font-family: 'Nunito', sans-serif;
-      line-height: 1.4;
-      padding: 3em 2em;
-  }
+    font-family: inherit, 'Tangerine', serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #f00b0b;
+    background-color: black;
+    line-height: 1.4;
+    padding: 3em 2em;
+}
   
   h1 {
       font-weight: 800;
